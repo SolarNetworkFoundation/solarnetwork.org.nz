@@ -1,0 +1,13 @@
+baseURL = "https://solarnetwork.org.nz/"
+languageCode = "en-us"
+title = "SolarNetwork Foundation"
+theme = "snf-kube"
+description = "SolarNetwork Foundation is a New Zealand registered charity focused on sustainability education and technology."
+Paginate = 4
+[Params]
+  RSSLink = "/index.xml"
+  author = "SolarNetwork" # add your company name
+  github = "" # add your github profile name
+  twitter = "" # add your twitter profile
+  email = "info@solarnetwork.net"
+
