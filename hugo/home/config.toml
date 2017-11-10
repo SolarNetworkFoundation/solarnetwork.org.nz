@@ -11,3 +11,7 @@ Paginate = 4
   twitter = "" # add your twitter profile
   email = "info@solarnetwork.net"
 
+[[menu.main]]
+    name = "Use Cases"
+    weight = -100
+    url = "/docs/"
