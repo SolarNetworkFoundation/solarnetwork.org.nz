@@ -1,11 +1,12 @@
 body {
-  font-family: Lato, Arial, sans-serif; }
+  font-family: 'Alegreya Sans', sans-serif; }
 
 h1.title, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: Lato, Arial, sans-serif; }
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300; }
 
 button, .button {
-  font-family: Lato, Arial, sans-serif; }
+  font-family: 'Alegreya Sans', sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #222; }
@@ -226,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 12px;
     font-size: 64px;
     line-height: 72px;
-    font-weight: 900; }
+    font-weight: 300; }
   #hero p {
     max-width: 740px;
     margin: auto;
@@ -249,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
       top: 0;
       left: 50%;
       margin-left: -20px;
-      background: #ff3366; }
+      background: #F7C819; }
 
 #intro {
   margin-top: 56px;
