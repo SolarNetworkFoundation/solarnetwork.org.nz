@@ -10,7 +10,7 @@
             <!-- pulls from the content of the corresponding _index.md -->
             {{.Content}}
         </article>
-        <div class="uk-child-width-expand@s uk-grid-match uk-margin-large-top" uk-grid>
+        <div class="uk-child-width-1-3@s uk-grid-match uk-margin-large-top" uk-grid>
             {{ range .Data.Pages.ByWeight }}
                 <div>
                     <a class="uk-card uk-card-primary uk-card-hover uk-link-reset" href="{{ .RelPermalink }}">
@@ -28,3 +28,4 @@
     </div>
 </section>
 {{ end }}
+{{ define "footer" }} {{ partial "footer" . }} {{ end }}

@@ -1,0 +1,28 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main" }}
+<section class="uk-section">
+    <div class="uk-container uk-container-small">
+        <h1>{{.Title}}</h1>
+        {{.Content}}
+        {{ range $i, $page := .Data.Pages.ByWeight }}
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                <div class="uk-cover-container {{if eq (mod $i 2) 0}}uk-card-media-left{{else}}uk-card-media-right uk-flex-last@s{{end}}">
+                    <img src="{{ printf "/img/case-studies/%s-tile-600x400.jpg" $page.Params.key | relURL }}" uk-cover>
+                    <canvas width="600" height="400"></canvas>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">{{ $page.Title }}</h3>
+                        <p>{{ $page.Params.brief }}</p>
+                        <div>
+                            <a class="uk-button uk-button-text" href="{{ $page.RelPermalink }}">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+{{ define "footer" }} {{ partial "footer" . }} {{ end }}
