@@ -1,0 +1,11 @@
+name = "SNF UIkit"
+license = "MIT"
+licenselink = "https://github.com/SolarNetworkFoundation/solarnetwork.org.nz/master/LICENSE.md"
+description = "SNF UIkit is a theme specific to SolarNetwork Foundation."
+homepage = "https://solarnetwork.org.nz/"
+min_version = "0.30"
+
+[author]
+  name = "msqr"
+  homepage = ""
+

@@ -1,0 +1,14 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main" }}
+<div class="uk-section">
+    <div class="uk-container uk-container-small">
+        <h1>{{.Title }}</h1>
+        <p>{{.Params.description}}</p>
+        {{ .Content }}       
+    </div>
+</div>
+{{ end }} 
+{{ define "footer" }} 
+  {{ partial "footer" . }} 
+{{ end }}

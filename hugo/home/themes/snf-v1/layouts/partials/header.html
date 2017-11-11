@@ -1,0 +1,17 @@
+<div class="uk-navbar-container" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    <div class="uk-container uk-container-expand">
+        <nav uk-navbar>
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.main }}
+                        <li{{ if  $currentPage.IsMenuCurrent "main" . }} class="uk-active"{{end}}><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{end}}
+                </ul>
+            </div>
+            <div class="uk-navbar-right">
+                <a class="uk-navbar-item uk-logo" href="/" title="home"><img src="/img/snf-logo.svg" alt="SolarNetwork Foundation"></a>
+            </div>
+        </nav>
+    </div>
+</div>

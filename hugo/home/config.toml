@@ -1,7 +1,7 @@
 baseURL = "https://solarnetwork.org.nz/"
 languageCode = "en-us"
 title = "SolarNetwork Foundation"
-theme = "snf-kube"
+theme = "snf-v1"
 description = "SolarNetwork Foundation is a New Zealand registered charity focused on sustainability education and technology."
 Paginate = 4
 [Params]
@@ -12,6 +12,16 @@ Paginate = 4
   email = "info@solarnetwork.net"
 
 [[menu.main]]
-    name = "Use Cases"
+    name = "Home"
     weight = -100
-    url = "/docs/"
+    url = "/"
+
+[[menu.main]]
+    name = "Use Cases"
+    weight = 100
+    url = "/use-cases/"
+
+[[menu.main]]
+    name = "About"
+    weight = 200
+    url = "/about/"

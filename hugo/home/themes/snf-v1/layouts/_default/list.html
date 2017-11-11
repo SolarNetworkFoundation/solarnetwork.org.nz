@@ -1,0 +1,30 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main" }}
+<section class="uk-section">
+    <div class="uk-container uk-container-small">
+        <article class="uk-article">
+            <header>
+                <h1 class="uk-article-title">{{.Title}}</h1>
+            </header>
+            <!-- pulls from the content of the corresponding _index.md -->
+            {{.Content}}
+        </article>
+        <div class="uk-child-width-expand@s uk-grid-match uk-margin-large-top" uk-grid>
+            {{ range .Data.Pages.ByWeight }}
+                <div>
+                    <a class="uk-card uk-card-primary uk-card-hover uk-link-reset" href="{{ .Permalink }}">
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">{{ .Title }}</h3>
+                            <p>{{ .Params.description }}</p>
+                        </div>
+                        <div class="uk-card-footer">
+                            <div class="uk-button uk-button-text">Read more</div>
+                        </div>
+                    </a>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
