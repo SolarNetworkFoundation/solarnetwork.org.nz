@@ -1,0 +1,22 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main" }}
+<section class="uk-section">
+    <div class="uk-container uk-container-small">
+       <ul class="uk-list uk-list-divider">
+            {{ range .Data.Pages }}
+            <li>
+                <h3 class="uk-margin-remove-bottom">{{ .Title }}</h3>
+                <p class="uk-text-meta uk-margin-remove-top">{{.Date.Format "2006-01-02"}}</p>
+                {{ .Summary }}
+                {{ if .Truncated }}
+                <div>
+                    <a class="uk-button uk-button-text" href="{{.RelPermalink}}">Read more</a>
+                </div>
+                {{ end }}
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</section>
+{{ end }}
