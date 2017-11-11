@@ -1,4 +1,4 @@
-baseURL = "https://solarnetwork.org.nz/"
+baseURL = "https://stage.solarnetwork.org.nz/"
 languageCode = "en-us"
 title = "SolarNetwork Foundation"
 theme = "snf-v1"
