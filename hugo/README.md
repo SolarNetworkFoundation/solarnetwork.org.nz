@@ -9,6 +9,7 @@ To run the Hugo developer web server, **including** draft content, run `hugo`
 like this:
 
 ```sh
+cd home
 hugo server -D --uglyURLs
 ```
 
@@ -17,6 +18,7 @@ hugo server -D --uglyURLs
 To build for staging, **including** draft content, run `hugo` like this:
 
 ```sh
+cd home
 rm -rf public && hugo -D --uglyURLs
 ```
 
@@ -27,6 +29,7 @@ The website will be generated in the `public/` directory.
 To build for production, **excluding** draft content, run `hugo` like this:
 
 ```sh
+cd home
 sed -i -e 's/stage.solarnetwork.org.nz/solarnetwork.org.nz/g' config.toml
 rm -rf public && hugo --uglyURLs
 git checkout config.toml
