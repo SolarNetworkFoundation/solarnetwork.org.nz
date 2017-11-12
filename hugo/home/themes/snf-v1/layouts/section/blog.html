@@ -10,9 +10,9 @@
                 <p class="uk-text-meta uk-margin-remove-top">{{.Date.Format "2006-01-02"}}</p>
                 {{ .Summary }}
                 {{ if .Truncated }}
-                <div>
+                <p>
                     <a class="uk-button uk-button-text" href="{{.RelPermalink}}">Read more</a>
-                </div>
+                </p>
                 {{ end }}
             </li>
             {{ end }}
