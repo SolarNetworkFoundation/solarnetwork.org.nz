@@ -19,19 +19,19 @@ Paginate = 4
 [[menu.main]]
     name = "Services"
     weight = 100
-    url = "/use-cases/"
+    url = "/use-cases.html"
 
 [[menu.main]]
     name = "Case Studies"
     weight = 200
-    url = "/case-studies/"
+    url = "/case-studies.html"
 
 [[menu.main]]
     name = "Blog"
     weight = 300
-    url = "/blog/"
+    url = "/blog.html"
 
 [[menu.main]]
     name = "About"
     weight = 400
-    url = "/about/"
+    url = "/about.html"
