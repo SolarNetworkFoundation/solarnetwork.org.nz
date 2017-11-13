@@ -1,11 +1,11 @@
 ---
-title: "Project Lightfoot"
+title: "Project Litefoot"
 date: 2017-11-08T08:50:56+13:00
 draft: false
 weight: 200
 brief: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed potestne rerum maior esse dissensio? Quia nec honesto quic quam honestius nec turpi turpius. Sin aliud quid voles, postea. Efficiens dici potest. Primum cur ista res digna odio est, nisi quod est turpis? Duo Reges: constructio interrete."
 toc: true
-key: lightfoot
+key: litefoot
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed potestne rerum maior esse dissensio? Quia nec honesto quic quam honestius nec turpi turpius. Sin aliud quid voles, postea. Efficiens dici potest. Primum cur ista res digna odio est, nisi quod est turpis? Duo Reges: constructio interrete. Si enim ad populum me vocas, eum. Virtutibus igitur rectissime mihi videris et ad consuetudinem nostrae orationis vitia posuisse contraria.
 
