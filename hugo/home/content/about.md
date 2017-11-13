@@ -13,7 +13,7 @@ SolarNetwork Foundation commenced in 2017 to serve as a curator of the open code
 
 <div uk-grid>
     <div class="uk-width-1-4@s">
-        <img src="/img/about/matt.png" alt="John Gorman" class="uk-border-circle">
+        <img src="/img/about/john.png" alt="John Gorman" class="uk-border-circle">
     </div>
     <div class="uk-width-expand@s">
         <h3 class="uk-margin-remove-bottom ">John Gorman</h3>
