@@ -17,12 +17,12 @@ Paginate = 4
     url = "/"
 
 [[menu.main]]
-    name = "Services"
+    name = "What We Offer"
     weight = 100
     url = "/use-cases.html"
 
 [[menu.main]]
-    name = "Case Studies"
+    name = "What We’ve Done"
     weight = 200
     url = "/case-studies.html"
 
