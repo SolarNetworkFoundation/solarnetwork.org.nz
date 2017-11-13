@@ -28,16 +28,17 @@
 
   {{ partial "favicon" . }}
 
-  <link href="{{ "/css/uikit.min.css" | relURL }}" rel="stylesheet" type="text/css">
-  <link href="{{ "/css/font.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ "/css/uikit.snf.min.css" | relURL }}" rel="stylesheet" type="text/css">
   <link href="{{ "/css/custom.css" | relURL }}" rel="stylesheet" type="text/css">
 </head>
 
 
 <body>
-  <header>{{ block "header" . }}{{ end }}</header>
-  <main>{{ block "main" . }}{{ end }}</main>
-  <footer>{{ block "footer" . }}{{ end }}</footer>
+  <div class="uk-offcanvas-content">
+  {{ block "header" . }}{{ end }}
+  <main id="scrollup-dropdown">{{ block "main" . }}{{ end }}</main>
+  <footer>{{ block "footer" . }}{{ end }}</footer>  
+  </div>
 </body>
 
 <script src="{{ "/js/uikit.min.js" | relURL }}" type="text/javascript"></script>
