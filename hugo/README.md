@@ -30,7 +30,7 @@ To build for production, **excluding** draft content, run `hugo` like this:
 
 ```sh
 cd home
-sed -i -e 's/stage.solarnetwork.org.nz/solarnetwork.org.nz/g' config.toml
+sed -i '' -e 's/stage.solarnetwork.org.nz/solarnetwork.org.nz/g' config.toml
 rm -rf public && hugo --uglyURLs
 git checkout config.toml
 ```
