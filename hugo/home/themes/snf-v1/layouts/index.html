@@ -1,18 +1,12 @@
 {{ define "title"}} {{ .Site.Title}} {{end}}
 {{ define "header"}} {{ partial "header" .}} {{end}}
-{{ define "main"}}
-<section class="uk-section">
-  <div class="uk-container uk-container-small">
-    <div id="hero">
-      <h1>{{.Title}}</h1>
-      <p>{{.Description}}</p>
+{{ define "main" }}
+<div class="uk-section">
+    <div class="uk-container uk-container-small">
+        <h1>{{ .Title }}</h1>
+        <p class="uk-text-lead">{{ .Description }}</p>
+        {{ .Content }}
     </div>
-    <div id="kube-faq">
-      <p>
-        SNF helps individuals and organisations study their energy use and the positive impact renewable energy can yield. SNF provides technology and skills that eanble individuals and organizations to broadcast their energy conservation and renewable strategies for all to learn from.
-      </p>
-    </div>
-  </div>
 </div>
-{{ end }}
-{{ define "footer"}} {{ partial "footer" .}} {{end}}
+{{ end }} 
+{{ define "footer" }} {{ partial "footer" . }} {{ end }}
