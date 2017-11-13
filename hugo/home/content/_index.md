@@ -1,16 +1,16 @@
 ---
-description: "SolarNetwork Foundation is a New Zealand registered charity focused on encouraging energy awareness and sustainability through the use of data-driven methodology."
+description: "SolarNetwork Foundation is a New Zealand registered charity focused on encouraging energy awareness and sustainability with data-driven initiatives."
 title: "SolarNetwork Foundation"
 draft: false
 ---
-SNF helps individuals and organisations track their energy use to support the uptake of renewable energy sources and enable users to realize the benefits of conservation. We provide technology and expertise that enable anyone to broadcast their energy use and sustainability strategies. Our goals are to help with:
+SNF helps individuals and organisations track their energy use to support the uptake of renewable energy sources and realize the benefits of conservation. We provide technology and expertise that enable anyone to publicise their energy use and sustainability strategies. Our goals are to help you:
 
- * demonstrating action on behalf of sustainable energy use
- * sharing the results of sustainability initiatives in energy use
- * tracking change in your organisation’s energy use over time and in response to different needs and circumstances
- * understanding your energy use in a detailed, comprehensive way
+ * understand your energy use in a detailed, comprehensive way
+ * see changes in your organisation’s energy use over time and in light of your specific circumstances
+ * share the results of your sustainability initiatives in energy use
+ * demonstrate action on behalf of sustainable energy use
 
-## Data driven process
+## A data-driven process
 
 SNF realizes that understanding the impact of our energy use on the environment can be difficult. There are many factors that make up your _energy environment_ such as the power you consume, the price you pay for that power, the power you generate, the price you earn for that power, and even the weather. We work to help you make sense of all this with the SolarNetwork computing platform that:
 
