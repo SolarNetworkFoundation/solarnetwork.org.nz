@@ -16,6 +16,9 @@
                 </div>
             </nav>
         </div>
+        {{ if .IsPage }}
+            {{ partial "breadcrumb" . }}
+        {{ end }}
     </div>
 </header>
 <div id="offcanvas" uk-offcanvas="overlay: true">
@@ -28,4 +31,3 @@
         </ul>
     </div>
 </div>
-  
