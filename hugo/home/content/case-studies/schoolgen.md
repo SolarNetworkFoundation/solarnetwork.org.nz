@@ -2,7 +2,7 @@
 title: "School-gen"
 date: 2017-11-08T08:50:56+13:00
 draft: false
-weight: 100
+weight: 200
 brief: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed potestne rerum maior esse dissensio? Quia nec honesto quic quam honestius nec turpi turpius. Sin aliud quid voles, postea. Efficiens dici potest. Primum cur ista res digna odio est, nisi quod est turpis?"
 toc: true
 key: schoolgen
