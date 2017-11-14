@@ -7,9 +7,18 @@
         {{.Content}}
         {{ range $i, $page := .Data.Pages.ByWeight }}
             <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                <div class="{{if findRE "-cover-" $page.Params.images.logo 1}}uk-cover-container{{end}} {{if eq (mod $i 2) 0}}uk-card-media-left{{else}}uk-card-media-right uk-flex-last@s{{end}}">
+                <div class="{{if (findRE "-cover-" $page.Params.images.logo 1)}}uk-cover-container{{end}} {{if eq (mod $i 2) 0}}uk-card-media-left{{else}}uk-card-media-right uk-flex-last@s{{end}}">
+                    <!--
+                        Look for card image from front matter images.logo element; if the image name contains 
+                        the pattern "cover-\d+x\d+" then the image will render with the uk-cover mode
+                        and a <canvas> element will be added using the dimensions from the name.
+                    -->
                     {{ if $page.Params.images.logo }}
-                    <img src="{{ $page.Params.images.logo | relURL }}" {{if not (findRE "-cover-" $page.Params.images.logo 1)}}class="uk-padding uk-padding-remove-bottom"{{end}}>
+                        <img src="{{ $page.Params.images.logo | relURL }}" {{if (findRE "-cover-" $page.Params.images.logo 1)}}uk-cover{{else}}class="uk-padding uk-padding-remove-bottom"{{end}}>
+                        {{ if (findRE "cover-\\d+x\\d+" $page.Params.images.logo 1) }}
+                            <canvas width="{{ replaceRE "^.*-(\\d+)x\\d+.*" "$1" $page.Params.images.logo }}"
+                                height="{{ replaceRE "^.*-\\d+x(\\d+).*" "$1" $page.Params.images.logo }}"></canvas>
+                        {{ end }}
                     {{ end }}
                 </div>
                 <div>
