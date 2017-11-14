@@ -14,3 +14,5 @@ The Birkenhead Football Club is one of Litefoot's most active and proactive clie
  Once the data is up on SolarNet, a custom dashboard can be created showing their customers the information in the way they want to show it. We expect that the valuable energy efficiency additons that Project Litefoot will be making to the club show up as evidence in the data and the dashboards. So for example, siwtching to LED lighting at Birkenhead could reduce their power bills and improve their carbon footprint at the same time.
 
 The big vision here is to enable the same data collection at a set of "archetypal" clubs across their client base, that possibly use energy in similar ways. By measuring Birkenhead as a pilot flagship club, and solving their energy challenges, Project Litefoot is on their way to making smart energy decisions for sports clubs nationwide.
+
+![SolarConsole dashboard from Project Litefoot](use-cases/SolarConsole_Litefoot_BirkenHeadFC.png)
