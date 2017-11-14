@@ -44,3 +44,21 @@
 <script src="{{ "/js/uikit.min.js" | relURL }}" type="text/javascript"></script>
 <script src="{{ "/js/uikit-icons.min.js" | relURL }}" type="text/javascript"></script>
 </html>
+
+<!-- templates -->
+{{ define "breadcrumb" }}
+  {{ if .currentPage.Parent }}
+    {{ if ne .currentPage.Parent .IsHome }}
+      {{ template "breadcrumb" dict "currentPage" .currentPage.Parent }}
+    {{ end }}
+    <li {{ if eq .id .currentPage.UniqueID }}class="uk-disabled"{{ end }}>
+      <a href="{{ .currentPage.RelPermalink }}" class="uk-button uk-button-text">
+        {{ if .currentPage.Params.nav }}
+          {{ .currentPage.Params.nav }}
+        {{ else }}
+          {{ .currentPage.Title }}
+        {{ end }}
+      </a>
+    </li>
+  {{ end }}
+{{ end }}
