@@ -15,4 +15,4 @@ The Birkenhead Football Club is one of Litefoot's most active and proactive clie
 
 The big vision here is to enable the same data collection at a set of "archetypal" clubs across their client base, that possibly use energy in similar ways. By measuring Birkenhead as a pilot flagship club, and solving their energy challenges, Project Litefoot is on their way to making smart energy decisions for sports clubs nationwide.
 
-![SolarConsole dashboard from Project Litefoot](use-cases/SolarConsole_Litefoot_BirkenHeadFC.png)
+![SolarConsole dashboard from Project Litefoot](/img/case-studies/litefoot-console-fc.png)
