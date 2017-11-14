@@ -1,6 +1,9 @@
 {{ define "title"}} {{ .Title}} {{end}}
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main" }}
+section = {{ .Section }}
+type = {{ .Type }}
+page = {{ .Page }}
 <div class="uk-section-small">
     <div class="uk-container uk-container-small">
         <h1>{{.Title }}</h1>
