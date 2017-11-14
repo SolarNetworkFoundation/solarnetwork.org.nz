@@ -7,7 +7,7 @@ brief: "Project Litefoot selected SolarNetwork platform to start tracking electr
 toc: true
 key: litefoot
 images:
-  logo: /img/case-studies/litefoot-cover-600x400.jpg
+  logo: /img/case-studies/liteclub-logo-cover-454x234.png
 ---
 Project Litefoot is an award-winning NZ based charity that uses the concept of sports-based competition to inspire kids to become environmental champions.
 
