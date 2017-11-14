@@ -16,7 +16,7 @@
                 </div>
             </nav>
         </div>
-        {{ if .IsPage }}
+        {{ if and (.IsPage) (.Section) }}
             {{ partial "breadcrumb" . }}
         {{ end }}
     </div>
