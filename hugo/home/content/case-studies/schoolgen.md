@@ -5,14 +5,13 @@ draft: false
 weight: 200
 brief: "SolarNetwork Foundation worked with School-gen to save power and create learning opportunties in New Zealand schools."
 description: Providing kids with tools for change
-caseUrl: http://www.schoolgen.co.nz/
 toc: true
 key: schoolgen
 images:
   logo: /img/case-studies/schoolgen-logo-204x94.png
 ---
 {{% section  title="School-gen" style="default" lead="Providing kids with tools for change" %}}
-School-gen, a division of Genesis Energy, aims to cultivate environmentally-aware thinking and behaviour in kids and their communities. By installing solar panels on schools, School-gen enables them to generate their own power and teach their students about solar energy, climate change, and electricity generation.
+[School-gen](http://www.schoolgen.co.nz/), a division of Genesis Energy, aims to cultivate environmentally-aware thinking and behaviour in kids and their communities. By installing solar panels on schools, School-gen enables them to generate their own power and teach their students about solar energy, climate change, and electricity generation.
 {{% /section %}}
 {{% section  title="The challenge" style="primary" %}}
 School-gen needed to be able to simultaneously track each school's power generation and consumption and then display that information in an interactive, engaging, and easy to understand way. Seeing energy use in real-time would support an active learning environment, with kids solving energy challenges in their schools. In addition, School-gen was faced with the challenge of supporting a variety of solar power system hardware.
