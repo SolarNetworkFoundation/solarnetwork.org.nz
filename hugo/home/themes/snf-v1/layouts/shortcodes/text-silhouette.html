@@ -1,0 +1,6 @@
+{{ if .IsNamedParams }}
+    {{ $scolor := .Get "color" | default "#ccc" }}
+    <span {{printf "style=\"color: transparent; text-shadow: 0 0 0 %s\"" $scolor | safeHTMLAttr}}>{{ .Get "value" }}</span>            
+{{ else }}
+<span style="color: transparent; text-shadow: 0 0 0 #ccc">{{ .Get 0 }}</span>
+{{ end }}
