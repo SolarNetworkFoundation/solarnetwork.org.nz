@@ -18,3 +18,7 @@ h6 {
 nav .uk-logo img {
     max-height: 48px;
 }
+
+main > p {
+    display: none; /* work around bug in Hugo inserting <p> around shortcodes */
+}
