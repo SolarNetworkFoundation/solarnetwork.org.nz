@@ -1,0 +1,12 @@
+<!--
+    Named parameters:
+        style : string enum of default, muted, primary, secondary (optional)
+        preserve: string enum of light, dark (optional) 
+-->
+<section class="uk-section uk-section-small{{with .Get "style"}} uk-section-{{.}}{{end}}{{if .Get "preserve"}} uk-preserve-color{{end}}">
+    <div class="uk-container uk-container-small{{with .Get "preserve" }} uk-{{.}}{{end}}">
+        {{with .Get "title"}}<h1>{{.}}</h1>{{end}}
+        {{with .Get "lead"}}<p class="uk-text-lead">{{.}}</p>{{end}}
+        {{.Inner}}
+    </div>
+</section>
