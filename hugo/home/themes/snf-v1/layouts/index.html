@@ -1,14 +1,6 @@
 {{ define "title"}} {{ .Site.Title}} {{end}}
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main" }}
-    {{ range where .Site.Pages.ByWeight "Type" "=" "home-snippet" }}
-    <section class="uk-section uk-section-small{{ if .Params.section.style }} uk-section-{{ .Params.section.style }}{{ end }}{{ if .Params.section.preserve }} uk-preserve-color{{ end }}">
-        <div class="uk-container uk-container-small{{ if .Params.section.preserve }} uk-{{ .Params.section.preserve }}{{ end }}">
-            <h1>{{ .Title }}</h1>
-            <p class="uk-text-lead">{{ .Description }}</p>
-            {{ .Content }}
-        </div>
-    </section>
-    {{ end }}
+{{ .Content }}       
 {{ end }} 
 {{ define "footer" }} {{ partial "footer" . }} {{ end }}
