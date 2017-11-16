@@ -8,6 +8,12 @@ type: about
 Back in 2008, two dads watched their girls play, started chatting, and found they had some things in common. Both were U.S. expats living in New Zealand and both had a strong interest in using technology for environmental purposes. The idea of an open, public infrastructure that used the internet to bridge renewable energy data streams, regardless of the hardware being used to produce the energy, started to swirl in their minds.
 
 The two gathered a couple of solar panels, charge controllers, deep-cycle batteries, miniature PCs, and climbed their roofs to install the gear. Over the next weeks and months they wrote the code that would become the SolarNetwork platform. Today SolarNetwork is being used by schools, corporations, governments, solar integrators, and developers in numerous apps that display and control dynamic energy flows in novel ways. SolarNetwork and its founders have been recognized by awards and invitations to conferences and brainstorming sessions across the world: from the Asian Development Bank to the White House.
+
+## About the name
+
+The name _SolarNetwork_ was derived from the facts that the project started by tracking the energy produced by solar panels and collected the data over the internet. However the goal of the project has always been broader in scope by considering entire energy environments comprised of all forms of energy, weather, market prices, electric cars, and more.
+
+We like to think of _solar_ in the sense that the energy provided by the sun either provides or directly influences all aspects of an energy enrvironment. Additionally, _network_ can be thought of as both the physical network provided by the internet as well as the social aspect of people sharing a common interest in energy and the environment.
 {{% /section %}}
 {{% section  title="Our mission" style="primary" %}}
 SolarNetwork Foundation was established in 2017 to serve as a curator and promoter of the open codebase and data-driven process that comprise the SolarNetwork platform.  The Foundation's work is guided by our belief in:
