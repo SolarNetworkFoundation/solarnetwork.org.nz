@@ -13,7 +13,7 @@ The two gathered a couple of solar panels, charge controllers, deep-cycle batter
 
 The name _SolarNetwork_ was derived from the facts that the project started by tracking the energy produced by solar panels and collected the data over the internet. However the goal of the project has always been broader in scope by considering entire energy environments comprised of all forms of energy, weather, market prices, electric cars, and more.
 
-We like to think of _solar_ in the sense that the energy provided by the sun either provides or directly influences all aspects of an energy enrvironment. Additionally, _network_ can be thought of as both the physical network provided by the internet as well as the social aspect of people sharing a common interest in energy and the environment.
+We like to think of _solar_ in the sense that the energy produced by the sun either provides or directly influences all aspects of an energy enrvironment. Additionally, _network_ can be thought of as both the physical network provided by the internet as well as the social aspect of people sharing a common interest in energy and the environment.
 {{% /section %}}
 {{% section  title="Our mission" style="primary" %}}
 SolarNetwork Foundation was established in 2017 to serve as a curator and promoter of the open codebase and data-driven process that comprise the SolarNetwork platform.  The Foundation's work is guided by our belief in:
