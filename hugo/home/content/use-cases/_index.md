@@ -5,4 +5,4 @@ publishdate: 2017-03-24
 nav: What we offer
 ---
 
-Yadda yadda yadda content here.
+We are here to help you get on with *your* energy campaigns. Here's where you can start:
