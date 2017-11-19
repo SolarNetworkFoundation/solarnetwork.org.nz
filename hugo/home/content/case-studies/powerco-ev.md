@@ -3,14 +3,14 @@ title: "Powerco EV"
 date: 2017-11-14T16:44:24+13:00
 draft: true
 weight: 500
-brief: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed potestne rerum maior esse dissensio? Quia nec honesto quic quam honestius nec turpi turpius. Sin aliud quid voles, postea. Efficiens dici potest. Primum cur ista res digna odio est, nisi quod est turpis? Duo Reges: constructio interrete."
+brief: "PowerCo wanted to help power a public EV charger in Tauranga, NZ with a solar PV array. They wanted to both integrate the information about the charger's use with a future option of adding live solar PV generation info for users."
 toc: true
 key: "powerco-ev"
 images:
   logo: /img/case-studies/powerco-logo-165x54.png
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed potestne rerum maior esse dissensio? Quia nec honesto quic quam honestius nec turpi turpius. Sin aliud quid voles, postea. Efficiens dici potest. Primum cur ista res digna odio est, nisi quod est turpis? Duo Reges: constructio interrete. Si enim ad populum me vocas, eum. Virtutibus igitur rectissime mihi videris et ad consuetudinem nostrae orationis vitia posuisse contraria.
+PowerCo is one of New Zealand's largest transmission companies, spanning two large regions of the North Island.  They see the huge potential for electric vehicles on their network, and also see renewable distributed generation coming online in a big way, They wanted to combine those two visions in am implementation that showed the public what that clean-energy future might be like.
 
 ![EV charge station kiosk](/img/case-studies/powerco-ev-kiosk-1226x690.png)
 
-Quid ad utilitatem tantae pecuniae? An potest, inquit ille, quicquam esse suavius quam nihil dolere? Intrandum est igitur in rerum naturam et penitus quid ea postulet pervidendum; Progredientibus autem aetatibus sensim tardeve potius quasi nosmet ipsos cognoscimus. In eo enim positum est id, quod dicimus esse expetendum. Restatis igitur vos; Quamquam tu hanc copiosiorem etiam soles dicere. Nihilo magis.
+PowerCo chose SolarNetwork and a SolarNetwork enabled EV charger to display how much energy the unit has provided for customers, and what kind of carbon emissions that represented.  EV charging customers can see the sunshine and know that the energy of the sun right in front of them was going into making their transporation cleaner and more efficient. Customising the energy dashboards with PowerCo allows PowerCo to own the brand and the sales channel to the end user,  this is an important aspect of SolarNetwork design and implementations.
