@@ -3,7 +3,7 @@ title: "SolarNetwork Foundation"
 description: "SolarNetwork Foundation is a New Zealand registered charity focused on encouraging energy awareness and sustainability with data-driven initiatives."
 weight: 100
 ---
-{{% section  title="SolarNetwork Foundation" %}}
+{{% section  title="SolarNetwork Foundation" lead="Shining light on your energy environment" %}}
 SNF helps individuals and organisations track their energy use to support the uptake of renewable energy sources and realize the benefits of conservation. We provide technology and expertise that enable anyone to publicise their energy use and sustainability strategies. Our goals are to help you:
 
 <div class="uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
