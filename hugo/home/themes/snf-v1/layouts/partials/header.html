@@ -7,7 +7,20 @@
                     <ul class="uk-navbar-nav">
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.main }}
-                            <li{{ if  $currentPage.IsMenuCurrent "main" . }} class="uk-active"{{end}}><a href="{{ .URL }}">{{ .Name }}</a></li>
+                            <li{{ if  or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} class="uk-active"{{end}}>
+                                <a href="{{ .URL }}">{{ .Name }}</a>
+                                {{ if .HasChildren }}
+                                    <div class="uk-navbar-dropdown">
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            {{ range .Children }}
+                                                <li{{if $currentPage.HasMenuCurrent "main" .}} class="uk-active"{{end}}>
+                                                    <a href="{{ .URL }}">{{ .Name }}</a>
+                                                </li>
+                                            {{ end }}
+                                        </ul>
+                                    </div>
+                                {{ end }}
+                            </li>
                         {{end}}
                     </ul>
                 </div>
