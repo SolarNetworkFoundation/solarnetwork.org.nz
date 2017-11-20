@@ -7,6 +7,9 @@ brief: "SolarNetwork Foundation worked with School-gen to save power and create 
 description: Providing kids with tools for change
 toc: true
 key: schoolgen
+menu:
+  main:
+      parent: "case-studies"
 images:
   logo: /img/case-studies/schoolgen-logo-204x94.png
 ---

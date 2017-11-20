@@ -5,6 +5,9 @@ draft: false
 weight: 200
 brief: "What is using all my energy?"
 toc: true
+menu:
+  main:
+      parent: "use-cases"
 ---
 ### Get some visibility into your intra-day energy use
 

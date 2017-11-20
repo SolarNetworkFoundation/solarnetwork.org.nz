@@ -6,6 +6,9 @@ weight: 300
 brief: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed potestne rerum maior esse dissensio? Quia nec honesto quic quam honestius nec turpi turpius. Sin aliud quid voles, postea. Efficiens dici potest. Primum cur ista res digna odio est, nisi quod est turpis? Duo Reges: constructio interrete."
 toc: true
 key: "airnz"
+menu:
+  main:
+      parent: "case-studies"
 images:
     logo: /img/case-studies/airnz-logo-524x92.svg
 ---

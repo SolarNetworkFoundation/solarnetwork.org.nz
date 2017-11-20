@@ -6,6 +6,9 @@ draft: true
 weight: 200
 brief: "Should I get solar panels? If so, how?"
 toc: true
+menu:
+  main:
+      parent: "use-cases"
 ---
 
 ### It's not always about money

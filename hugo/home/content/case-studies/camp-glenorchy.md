@@ -6,6 +6,9 @@ weight: 100
 brief: "Earth-friendly cabins producing zero net energy, with SolarNetwork sharing the wealth of data stuff stuff stuff."
 toc: true
 key: "camp-glenorchy"
+menu:
+  main:
+      parent: "case-studies"
 images:
   logo: /img/case-studies/cgy-logo-280x134.png
 ---

@@ -12,7 +12,7 @@
                                 {{ if .HasChildren }}
                                     <div class="uk-navbar-dropdown">
                                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                                            {{ range .Children }}
+                                            {{ range .Children.ByName }}
                                                 <li{{if $currentPage.HasMenuCurrent "main" .}} class="uk-active"{{end}}>
                                                     <a href="{{ .URL }}">{{ .Name }}</a>
                                                 </li>
@@ -39,7 +39,18 @@
         <ul class="uk-nav uk-nav-default">
             {{ $currentPage := . }}
             {{ range .Site.Menus.main }}
-                <li{{ if  $currentPage.IsMenuCurrent "main" . }} class="uk-active"{{end}}><a class="uk-margin-small" href="{{ .URL }}">{{ .Name }}</a></li>
+                <li class="{{ if  .HasChildren }} uk-parent{{end}}{{ if  $currentPage.IsMenuCurrent "main" . }} uk-active{{end}}">
+                    <a class="uk-margin-small" href="{{ .URL }}">{{ .Name }}</a>
+                    {{ if .HasChildren }}
+                        <ul class="uk-nav-sub">
+                            {{ range .Children.ByName }}
+                                <li{{if $currentPage.HasMenuCurrent "main" .}} class="uk-active"{{end}}>
+                                    <a href="{{ .URL }}">{{ .Name }}</a>
+                                </li>
+                            {{ end }}
+                        </ul>
+                    {{ end }}
+                </li>
             {{end}}
         </ul>
     </div>

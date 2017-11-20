@@ -6,6 +6,9 @@ weight: 100
 brief: "SolarNetwork Foundation helped Zero Energy House integrate their building management system with SolarNetwork to enable real-time sharing of the house's energy environment."
 toc: true
 key: "zeh"
+menu:
+  main:
+      parent: "case-studies"
 images:
   logo: /img/case-studies/zeh-logo-280x61.png
 ---

@@ -6,6 +6,9 @@ weight: 500
 brief: "Energy education needs great energy tools - we have them."
 toc: true
 key: "teach"
+menu:
+  main:
+      parent: "use-cases"
 ---
 ### Energy underlies everything in our future
 

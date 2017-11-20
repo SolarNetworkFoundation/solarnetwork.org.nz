@@ -6,6 +6,9 @@ weight: 100
 brief: "Project Litefoot selected SolarNetwork to start tracking electricity use at their sports clubs."
 toc: true
 key: liteclub
+menu:
+  main:
+      parent: "case-studies"
 images:
   logo: /img/case-studies/liteclub-logo-cover-454x234.png
 ---

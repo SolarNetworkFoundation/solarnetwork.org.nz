@@ -5,6 +5,9 @@ draft: true
 weight: 200
 brief: "Share your energy successes"
 toc: true
+menu:
+  main:
+      parent: "use-cases"
 ---
 
 ### Hear all about it
