@@ -6,10 +6,28 @@ weight: 100
 {{% section  title="SolarNetwork Foundation" %}}
 SNF helps individuals and organisations track their energy use to support the uptake of renewable energy sources and realize the benefits of conservation. We provide technology and expertise that enable anyone to publicise their energy use and sustainability strategies. Our goals are to help you:
 
- * understand your energy use in a detailed, comprehensive way
- * see changes in your organisation’s energy use over time and in light of your specific circumstances
- * share the results of your sustainability initiatives in energy use
- * demonstrate action on behalf of sustainable energy use
+<div class="uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
+    <div>
+        <div class="uk-card uk-card-small uk-card-primary uk-card-body">
+            <p>understand your energy use in a detailed, comprehensive way</p>
+        </div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-small uk-card-primary uk-card-body">
+            <p>see changes in your organisation’s energy use over time and in light of your specific circumstances</p>
+        </div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-small uk-card-primary uk-card-body">
+            <p>share the results of your sustainability initiatives in energy use</p>
+        </div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-small uk-card-primary uk-card-body">
+            <p>demonstrate action on behalf of sustainable energy use</p>
+        </div>
+    </div>
+</div>
 
  <a class="uk-button uk-button-text" href="use-cases.html">Learn more about how SNF can help you</a>
 {{% /section %}}
@@ -35,7 +53,8 @@ The SolarNetwork Foundation's work is guided by our belief in:
             <p>Collected data reaches its full potential when freely shared for all to learn from.</p>
         </div>
     </div>
-</div>{{% /section %}}
+</div>
+{{% /section %}}
 {{% section  title="A data-driven process" style="secondary" %}}
 SNF realizes that understanding the impact of our energy use on the environment can be difficult. There are many factors that make up your _energy environment_ such as the power you consume, the price you pay for that power, the power you generate, the price you earn for that power, and even the weather. We work to help you make sense of all this with the SolarNetwork computing platform that:
 
