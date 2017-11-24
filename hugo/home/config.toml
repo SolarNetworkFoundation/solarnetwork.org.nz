@@ -14,24 +14,29 @@ Paginate = 4
 [[menu.main]]
     name = "Home"
     weight = -100
+    identifier = "home"
     url = "/"
 
 [[menu.main]]
     name = "What We Offer"
     weight = 100
+    identifier = "use-cases"
     url = "/use-cases.html"
 
 [[menu.main]]
     name = "What We’ve Done"
     weight = 200
+    identifier = "case-studies"
     url = "/case-studies.html"
 
 [[menu.main]]
     name = "Blog"
     weight = 300
+    identifier = "blog"
     url = "/blog.html"
 
 [[menu.main]]
     name = "About"
     weight = 400
+    identifier = "about"
     url = "/about.html"

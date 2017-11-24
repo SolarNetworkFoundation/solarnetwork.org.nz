@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700,700i|Source+Sans+Pro:300,300i,400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:300,300i,400,400i,700,700i|Source+Sans+Pro:300,300i,400,400i,700,700i');
 
 nav .uk-logo img {
     max-height: 48px;
@@ -6,4 +6,12 @@ nav .uk-logo img {
 
 main > p {
     display: none; /* work around bug in Hugo inserting <p> around shortcodes */
+}
+
+/* Tweak standard blockquote cards slightly thinner weight */
+blockquote.uk-card > p {
+    font-weight: 300;
+}
+blockquote.uk-card footer {
+    font-weight: inherit;
 }

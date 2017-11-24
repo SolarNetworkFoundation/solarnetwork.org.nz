@@ -5,6 +5,9 @@ draft: true
 weight: 200
 brief: "How can I incorporate sustainable features into my home or building?"
 toc: true
+menu:
+  main:
+      parent: "use-cases"
 ---
 
 ### Foo

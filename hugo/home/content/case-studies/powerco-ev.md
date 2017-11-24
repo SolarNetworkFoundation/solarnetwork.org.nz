@@ -6,7 +6,10 @@ weight: 500
 brief: "PowerCo wanted to help power a public EV charger in Tauranga, NZ with a solar PV array. They wanted to both integrate the information about the charger's use with a future option of adding live solar PV generation info for users."
 description: Illustrating new technologies
 toc: true
-key: schoolgen
+key: "powerco-ev"
+menu:
+  main:
+      parent: "case-studies"
 images:
   logo: /img/case-studies/powerco-logo-165x54.png
 ---
