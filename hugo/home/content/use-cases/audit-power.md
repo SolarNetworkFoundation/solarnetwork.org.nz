@@ -24,4 +24,10 @@ SolarNetwork is a great way for homes and businesses to answer these questions a
 {{% /section %}}
 {{% section  title="Make better energy decisions" style="secondary" %}}
 Once you have discover patterns in your energy use, you can make informed decisions based on the evidence. Here at SolarNetwork Foundation, we are building a set of best practices and aim to help you find the right energy providers to lower your energy bill, make better use of renewable energy, and share your experience with others.
+
+The chart below shows average seasonal energy production and use for one site. Power generation is shown above the horizontal axis and power concumption below. The <span style="color: rgb(0, 158, 193); font-weight: 700;">yellow lines</span> represent summer, <span style="color: rgb(0, 158, 193); font-weight: 700;">burgundy lines</span> autumn, <span style="color: rgb(0, 158, 193); font-weight: 700;">blue lines</span> winter, and <span style="color: rgb(0, 158, 193); font-weight: 700;">green lines</span> spring.
+
+The chart on the left shows averages per day of the week. You can see immediately that this site uses much less power on weekends. The chart on the right shows averages per hour of the day. You can see that in winter far more power is consumed, most of it first thing in morning. This was attributed to electric heating, which used a good deal of energy to warm the building up at the start of each work day.
+
+![Seasonal data variation visualization](/img/use-cases/seasonal-energy-1620x512.png)
 {{% /section %}}
