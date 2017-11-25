@@ -1,6 +1,4 @@
-[submodule "hugo/home/themes/kube"]
-	path = hugo/home/themes/kube
-	url = https://github.com/jeblister/kube.git
 [submodule "uikit"]
 	path = uikit
 	url = git://github.com/uikit/uikit.git
+	branch = master
