@@ -11,7 +11,7 @@ menu:
       parent: "use-cases"
 key: go-solar
 ---
-{{% section  title="Going Solar" style="default" lead="It's not always about money" %}}
+{{% section  title="Be your own power station" style="default" lead="It's not always about money" %}}
 The promise of putting solar PV on your roof to lower your energy bill is a seductive one.  With a minimum of fuss, a solar PV array can quickly be installed on your roof and start pumping clean energy into your house, offsetting the growing power bill for years and years. Well, that depends. If you are using electricity all day, and the cost of those kilowatt-hours is going up, then to could make a lot of sense economically to add solar PV to your roof. If you don't use power during the day, and the surplus power form the solar array is just feeding the grid - that's a different story. If you are depending on your local retailer of power to buy that surplus - at a good price, for the lifetime of the solar array - maybe you need to data to make this decision.
 {{% /section %}}
 {{% section  title="Sometimes, it is completely about money" style="primary" %}}
