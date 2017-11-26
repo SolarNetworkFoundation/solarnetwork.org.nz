@@ -10,11 +10,11 @@ menu:
       parent: "use-cases"
 key: publicise
 ---
-{{% section  title="Tell them all about it" style="default" lead="It's your energy story" %}}
-There is no real rule of thumb as to what energy practices are best for everyone - every edifice is unique. That's because the equipment in each building is different, the schedules by which you use energy are different and custom.  But studying your own energy usage patterns using SolarNetwork should help you develop a strategy for saving money, lowering your carbon footprint, and seeing progress over time.  But the work you've done is worth more than just lowering your own energy costs, it's worth sharing with others!  Let us help you design a custom dashboard, mobile app or learning tool to convey the benefits of your energy policy to the world.
-
+{{% section  title="Tell people all about it" style="default" lead="It's your energy story" %}}
+Energy environments vary enormously between people, organisations, and places. Things like the amount of energy used or generated, when energy is used or generated, what energy is used for, and the equipment delivering energy are unique.  Seeing your energy visualised via SolarNetwork will help you develop a strategy for saving money lowering your carbon footprint over time. Sharing your efforts and outcomes with others is an excellent way to then help others learn from _your_ energy story.
 {{% /section %}}
-{{% section  title="Core content" style="primary" %}}
+{{% section  title="We can help you" style="primary" %}}
+SolarNetwork Foundation can help you design a custom dashboard, mobile app, or learning tool to convey the benefits of your energy policy to the world.
 (image here of a dashboard?)
 {{% /section %}}
 {{% section  title="Conclusion" style="secondary" %}}
