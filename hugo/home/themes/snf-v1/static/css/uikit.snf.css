@@ -100,7 +100,7 @@ strong {
   /* 2 */
   font-family: Consolas, monaco, monospace;
   /* 3 */
-  color: #f0506e;
+  color: #d81a46;
   white-space: nowrap;
   padding: 2px 6px;
   background: #f8f8f8;
@@ -109,7 +109,7 @@ strong {
  * Emphasize
  */
 em {
-  color: #f0506e;
+  color: #d81a46;
 }
 /*
  * Insert
@@ -1512,8 +1512,8 @@ button.uk-icon:not(:disabled) {
  */
 .uk-form-danger,
 .uk-form-danger:focus {
-  color: #f0506e;
-  border-color: #f0506e;
+  color: #d81a46;
+  border-color: #d81a46;
 }
 /*
  * Success
@@ -1973,20 +1973,20 @@ select.uk-form-width-xsmall {
  * Danger
  */
 .uk-button-danger {
-  background-color: #f0506e;
+  background-color: #d81a46;
   color: #fff;
   border: 1px solid transparent;
 }
 /* Hover + Focus */
 .uk-button-danger:hover,
 .uk-button-danger:focus {
-  background-color: #ee395b;
+  background-color: #c1173f;
   color: #fff;
 }
 /* OnClick + Active */
 .uk-button-danger:active,
 .uk-button-danger.uk-active {
-  background-color: #ec2147;
+  background-color: #aa1537;
   color: #fff;
 }
 /*
@@ -3167,8 +3167,8 @@ select.uk-form-width-xsmall {
  * Danger
  */
 .uk-alert-danger {
-  background: #fef4f6;
-  color: #f0506e;
+  background: #f6cdd6;
+  color: #d81a46;
 }
 /*
      * Content
@@ -3263,7 +3263,7 @@ select.uk-form-width-xsmall {
  * Danger
  */
 .uk-label-danger {
-  background-color: #f0506e;
+  background-color: #d81a46;
   color: #fff;
 }
 /* ========================================================================
@@ -5872,7 +5872,7 @@ ul.uk-nav-sub {
  * Danger
  */
 .uk-notification-message-danger {
-  color: #f0506e;
+  color: #d81a46;
 }
 /* ========================================================================
    Component: Tooltip
@@ -7286,7 +7286,7 @@ ul.uk-nav-sub {
   color: #faa05a !important;
 }
 .uk-text-danger {
-  color: #f0506e !important;
+  color: #d81a46 !important;
 }
 /* Background modifier
  ========================================================================== */
