@@ -3,7 +3,7 @@ title: "Teach"
 date: 2017-11-16T12:36:07+13:00
 draft: false
 weight: 500
-brief: "Energy education needs great energy tools - we have them."
+brief: "Energy education needs great energy tools. We have them."
 toc: true
 key: "teach"
 menu:

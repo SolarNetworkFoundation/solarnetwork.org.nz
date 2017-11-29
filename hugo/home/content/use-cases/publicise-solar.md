@@ -3,7 +3,7 @@ title: "Publicise"
 date: 2017-11-11T08:50:41+13:00
 draft: false
 weight: 200
-brief: "Share your energy successes"
+brief: "Share your energy story with the world."
 toc: true
 menu:
   main:
