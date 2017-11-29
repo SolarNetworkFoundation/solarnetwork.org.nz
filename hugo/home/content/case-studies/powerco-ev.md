@@ -14,7 +14,7 @@ images:
   logo: /img/case-studies/powerco-logo-165x54.png
 ---
 {{% section  title="Powerco EV" style="default" lead="Illustrating new technologies" %}}
-[PowerCo](http://www.powerco.co.nz/)is one of New Zealand's largest transmission companies, spanning two large regions of the North Island.  They see the huge potential for electric vehicles on their network, and also see renewable distributed generation coming online in a big way, They wanted to combine those two visions in am implementation that showed the public what that clean-energy future might be like.
+[PowerCo](http://www.powerco.co.nz/) is one of New Zealand's largest transmission companies, spanning two large regions of the North Island.  They see the huge potential for electric vehicles on their network, and also see renewable distributed generation coming online in a big way, They wanted to combine those two visions in am implementation that showed the public what that clean-energy future might be like.
 {{% /section %}}
 {{% section  title="The challenge" style="primary" %}}
 Powerco needed to create a flagship technology demonstration that not only worked flawlessly as a durable public resource, but had all of their branding as well.  The EV charger needed to be high-tech, supporting the latest charge point protocols for fleet management, real-time metering and remote management of the unit, and the integration a secondary grid-connect solar PV array.  The visible dashboard needed to display real-time data shown via an attractive, responsive touchscreen app.
