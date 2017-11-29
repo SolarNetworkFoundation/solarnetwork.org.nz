@@ -30,13 +30,8 @@ To build for production, **excluding** draft content, run `hugo` like this:
 
 ```sh
 cd home
-sed -i '' -e 's/stage.solarnetwork.org.nz/solarnetwork.org.nz/g' config.toml
-rm -rf public && hugo --uglyURLs
-git checkout config.toml
+rm -rf public && hugo --uglyURLs --baseURL https://solarnetwork.org.nz/
 ```
-
-This will modify the `config.toml` file to point to the production URL, run Hugo
-to generate the website, and then undo the change to `config.toml`.
 
 The website will be generated in the `public/` directory.
 
