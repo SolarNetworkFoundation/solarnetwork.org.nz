@@ -1,7 +1,7 @@
 ---
 title: "Hello there!"
 date: 2017-11-08T09:50:04+13:00
-draft: true
+draft: false
 ---
 The SolarNetwork Foundation is pleased to launch this website. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia ipsum elit, sit amet consectetur magna volutpat sit amet. Phasellus vitae hendrerit ipsum. Donec interdum porttitor tellus vel consequat. Aliquam eget consectetur est. Duis id arcu est. Mauris porttitor magna eu sapien convallis congue. Donec nec accumsan augue. Pellentesque sodales tempus turpis sed feugiat. Maecenas aliquam a massa eleifend luctus. Praesent eget interdum massa. Duis venenatis hendrerit ligula a lacinia.
 

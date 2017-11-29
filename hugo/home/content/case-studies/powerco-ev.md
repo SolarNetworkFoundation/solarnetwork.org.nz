@@ -1,7 +1,7 @@
 ---
 title: "Powerco EV"
 date: 2017-11-08T08:50:56+13:00
-draft: true
+draft: false
 weight: 500
 brief: "PowerCo wanted to help power a public EV charger in Tauranga, NZ with a solar PV array. They wanted to both integrate the information about the charger's use with a future option of adding live solar PV generation info for users."
 description: Illustrating new technologies

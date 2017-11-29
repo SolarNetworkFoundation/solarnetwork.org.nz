@@ -1,8 +1,7 @@
 ---
 title: "Go Solar"
 date: 2017-11-11T08:48:37+13:00
-draft: true
-draft: true
+draft: false
 weight: 200
 brief: "Should I get solar panels? If so, how?"
 toc: true
