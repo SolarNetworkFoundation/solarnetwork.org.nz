@@ -14,26 +14,32 @@ images:
   logo: /img/case-studies/schoolgen-logo-204x94.png
 ---
 {{% section  title="School-gen" style="default" lead="Providing kids with tools for change" %}}
+<!--
 {{% quote-bar %}}{{% quote url="http://www.schoolgen.co.nz/" cite="Rob Duff, School-gen Educator" %}}
 Kids are literally the future.
 {{% /quote %}}{{% /quote-bar %}}
+-->
 [School-gen](http://www.schoolgen.co.nz/), a division of Genesis Energy, aims to cultivate environmentally-aware thinking and behaviour in kids and their communities. By installing solar panels on schools, School-gen enables them to generate their own power and teach their students about solar energy, climate change, and electricity generation.
 {{% /section %}}
 {{% section  title="The challenge" style="primary" %}}
+<!--
 {{% quote-bar %}}{{% quote url="http://www.schoolgen.co.nz/" cite="Rob Duff, School-gen Educator" %}}
 Stuff needed to be great and things needed to happen.
 {{% /quote %}}{{% /quote-bar %}}
+-->
 School-gen needed to be able to simultaneously track each school's power generation and consumption and then display that information in an interactive, engaging, and easy to understand way. Seeing energy use in real-time would support an active learning environment, with kids solving energy challenges in their schools. In addition, School-gen was faced with the challenge of supporting a variety of solar power system hardware.
 {{% /section %}}
 
 {{% section  title="The result" style="secondary" %}}
 {{% quote-bar %}}
 {{% quote url="http://www.schoolgen.co.nz/" cite="Rob Duff, School-gen Educator" %}}
-SolarNetwork has been a rousing success for the School-gen programme. More great stuff to be had here. And then some.
+SolarNetwork has been a rousing success for the School-gen programme.
 {{% /quote %}}
+<!--
 {{% quote url="http://aschool.school.nz" cite="Some Body, Principal, A School" %}}
 Our students love the interactive charts and have turned into energy detectives: finding ways to conserve power and help the planet.
 {{% /quote %}}
+-->
 {{% /quote-bar %}}
 
 SolarNetwork's flexible, customizable platform met these challenges, while providing a low-cost, reliable platform for School-gen's evolving monitoring and visualization needs. Schools are now able to see their generation and consumption as parts of their total energy environment, enabling them to save power and generating new learning opportunities.
