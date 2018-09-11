@@ -10,7 +10,7 @@ like this:
 
 ```sh
 cd home
-hugo server -D --uglyURLs
+hugo server -D
 ```
 
 ## Staging build
@@ -19,7 +19,7 @@ To build for staging, **including** draft content, run `hugo` like this:
 
 ```sh
 cd home
-rm -rf public && hugo -D --uglyURLs
+rm -rf public && hugo -D
 ```
 
 The website will be generated in the `public/` directory.
@@ -30,7 +30,7 @@ To build for production, **excluding** draft content, run `hugo` like this:
 
 ```sh
 cd home
-rm -rf public && hugo --uglyURLs --baseURL https://solarnetwork.org.nz/
+rm -rf public && hugo --baseURL https://solarnetwork.org.nz/
 ```
 
 The website will be generated in the `public/` directory.
