@@ -12,6 +12,9 @@ uglyURLs = true
   twitter = "" # add your twitter profile
   email = "info@solarnetwork.net"
 
+[markup.goldmark.renderer]
+    unsafe= true
+
 [[menu.main]]
     name = "Home"
     weight = -100

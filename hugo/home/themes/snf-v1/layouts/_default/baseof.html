@@ -2,7 +2,7 @@
 <html lang="{{ .Site.LanguageCode }}">
 
 <head>
-  {{ .Hugo.Generator }}
+  {{ hugo.Generator }}
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,8 +19,12 @@
   {{ end }}
 
     {{ partial "meta/name-author" . }}
-  {{ if .RSSLink }}
-  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" /> {{ end }}
+    
+    {{ if .OutputFormats.Get "RSS" }}
+    {{ with .OutputFormats.Get "RSS" }}
+      <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+      {{ end }}
+    {{ end }}
 
   <link rel="canonical" href="{{ .RelPermalink }}"> {{ if (isset .Params "prev") }}
   <link rel="prev" href="{{ .Params.prev }}"> {{ end }} {{ if (isset .Params "next") }}

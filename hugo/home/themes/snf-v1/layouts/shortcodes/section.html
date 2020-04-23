@@ -1,3 +1,4 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
 <!--
     Named parameters:
         style : string enum of default, muted, primary, secondary (optional)
@@ -7,6 +8,6 @@
     <div class="uk-container uk-container-small{{with .Get "preserve" }} uk-{{.}}{{end}}">
         {{with .Get "title"}}<h1>{{.}}</h1>{{end}}
         {{with .Get "lead"}}<p class="uk-text-lead">{{.}}</p>{{end}}
-        {{.Inner}}
+        {{ .Inner }}
     </div>
 </section>
