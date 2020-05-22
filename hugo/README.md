@@ -5,21 +5,21 @@ website, using the [Hugo][hugo] content generation tool.
 
 ## Developer server
 
-To run the Hugo developer web server, **including** draft content, run `hugo`
+To run the Hugo developer web server, **including** draft and future content, run `hugo`
 like this:
 
 ```sh
 cd home
-hugo server -D
+hugo server -DF
 ```
 
 ## Staging build
 
-To build for staging, **including** draft content, run `hugo` like this:
+To build for staging, **including** draft and future content, run `hugo` like this:
 
 ```sh
 cd home
-rm -rf public && hugo -D
+rm -rf public && hugo -DF
 ```
 
 The website will be generated in the `public/` directory.
