@@ -34,6 +34,12 @@ uglyURLs = true
     url = "/case-studies.html"
 
 [[menu.main]]
+    name = "Subscriptions"
+    weight = 250
+    identifier = "subscribe"
+    url = "/subscriptions.html"
+
+[[menu.main]]
     name = "Blog"
     weight = 300
     identifier = "blog"
