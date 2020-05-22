@@ -35,11 +35,6 @@ School-gen needed to be able to simultaneously track each school's power generat
 {{% quote url="http://www.schoolgen.co.nz/" cite="Rob Duff, School-gen Educator" %}}
 SolarNetwork provided a robust and elegant solution for acquiring and displaying solar and grid energy data for new schools in our School-gen programme between 2015 to 2016. These guys are real experts and innovators in their field and are great to work with.
 {{% /quote %}}
-<!--
-{{% quote url="http://aschool.school.nz" cite="Some Body, Principal, A School" %}}
-Our students love the interactive charts and have turned into energy detectives: finding ways to conserve power and help the planet.
-{{% /quote %}}
--->
 {{% /quote-bar %}}
 
 SolarNetwork's flexible, customizable platform met these challenges, while providing a low-cost, reliable platform for School-gen's evolving monitoring and visualization needs. Schools are now able to see their generation and consumption as parts of their total energy environment, enabling them to save power and generating new learning opportunities.
