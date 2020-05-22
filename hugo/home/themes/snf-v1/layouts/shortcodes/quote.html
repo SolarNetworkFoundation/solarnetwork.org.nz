@@ -1,10 +1,10 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
 <!--
     Named parameters:
         url : citation URL
         cite: citation
-        preserve: string enum of light, dark (optional) 
 -->
 <blockquote cite="{{.Get "url"}}" class="uk-card uk-card-small">
-    {{.Inner}}
-    <footer><cite>{{.Get "cite"}}</cite></footer>
+	{{.Inner}}<footer><cite>{{.Get "cite"}}</cite></footer> 
+	
 </blockquote>
