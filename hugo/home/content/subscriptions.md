@@ -8,8 +8,9 @@ markup: "mmark"
 {{% section  title="SolarNetwork subscriptions" %}}
 SolarNetwork Foundation offers subscriptions to the
 [SolarNetwork](https://data.solarnetwork.net/solaruser/) platform which are based on the amount of
-data collected into and queried out of the platform. By subscribing to SolarNetwork you gain access
-to the following SolarNetwork features:
+data collected into and queried out of the platform. By subscribing to SolarNetwork not only are
+you supporting our mission to provide tools to help educate people about renewable energy and 
+operate renewable energy assets, you gain access to the following SolarNetwork features:
 
 {.table .uk-table .uk-table-divider}
 | Feature          | Description |
