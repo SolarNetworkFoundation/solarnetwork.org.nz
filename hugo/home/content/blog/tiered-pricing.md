@@ -12,7 +12,7 @@ monitoring an ever-increasing amount of renewable energy assets as they expand a
 <!--more-->
 
 We are very excited to announce a new tiered subscription price structure that results in
-significant cost savings for clients capturing large volumes of data. The overall cost of using
+significant cost savings for subscribers capturing large volumes of data. The overall cost of using
 SolarNetwork reduces the more you use it.
 
 Here are the new pricing tiers for the subscriptions SolarNetwork Foundation offers. See the
