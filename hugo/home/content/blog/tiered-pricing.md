@@ -15,6 +15,13 @@ We are very excited to announce a new tiered subscription price structure that r
 significant cost savings for subscribers capturing large volumes of data. The overall cost of using
 SolarNetwork reduces the more you use it.
 
+{{% quote-bar %}}
+{{% quote url="http://www.schoolgen.co.nz/" cite="Shay Brazier, Founder Re/volve Energy" %}}
+It is great to see the platform continuing to mature, with new functionality and lower pricing to
+boot. Good stuff!
+{{% /quote %}}
+{{% /quote-bar %}}
+
 Here are the new pricing tiers for the subscriptions SolarNetwork Foundation offers. See the
 [subscriptions page](/subscriptions.html) for more details. Based on the current level of data
 flowing through SolarNetwork, this new tiered pricing model will provide more than _50% cost
