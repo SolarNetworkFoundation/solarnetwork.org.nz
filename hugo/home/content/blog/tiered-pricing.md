@@ -15,13 +15,6 @@ We are very excited to announce a new tiered subscription price structure that r
 significant cost savings for subscribers capturing large volumes of data. The overall cost of using
 SolarNetwork reduces the more you use it.
 
-{{% quote-bar %}}
-{{% quote url="http://www.schoolgen.co.nz/" cite="Shay Brazier, Founder Re/volve Energy" %}}
-It is great to see the platform continuing to mature, with new functionality and lower pricing to
-boot. Good stuff!
-{{% /quote %}}
-{{% /quote-bar %}}
-
 Here are the new pricing tiers for the subscriptions SolarNetwork Foundation offers. See the
 [subscriptions page](/subscriptions.html) for more details. Based on the current level of data
 flowing through SolarNetwork, this new tiered pricing model will provide more than _50% cost
@@ -34,3 +27,27 @@ savings_ for SolarNetwork subscribers overall!
 | Properties posted | $9 / million       | $6 / million       | $4 / million       | $2 / million       |
 | Datum queried     | $2 / million       | $1 / million       | $0.50 / million    | $0.20 / million    |
 | Datum stored      | $0.40 / million    | $0.20 / million    | $0.05 / million    | $0.006 / million   |
+
+## What subscribers are saying
+
+We reached out to some of our current subscribers to see what they thought of the new pricing plan,
+and this is what they had to say:
+
+<div class="uk-grid uk-child-width-1-2@s uk-grid-match" uk-grid>
+	<div>
+		<div class="uk-card uk-card-primary uk-card-body">
+			{{< quote url="https://www.revolveenergy.co/" cite="Shay Brazier, Founder Re/volve Energy" >}}
+			<p>It is great to see the platform continuing to mature, with new functionality and lower pricing to
+			boot. Good stuff!</p>
+			{{< /quote >}}
+		</div>
+	</div>
+	<div>
+		<div class="uk-card uk-card-primary uk-card-body">
+			{{< quote url="http://www.greenstage.co.nz/" cite="Philip Court, Director Greenstage" >}}
+			<p>That's awesome, anything that reduces costs is highly appreciated.  With SolarNetwork I also
+			know that the best service will continue to be provided and that is a good feeling.</p>
+			{{< /quote >}}
+		</div>
+	</div>
+</div>
