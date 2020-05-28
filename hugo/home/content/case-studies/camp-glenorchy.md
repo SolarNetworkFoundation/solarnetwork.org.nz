@@ -39,7 +39,23 @@ Energy certification process.
 {{% quote-bar %}}{{% quote url="https://link.example.com/" cite="Big Shot, Important Role" %}}
 Stuff needed to be great and things needed to happen.
 {{% /quote %}}{{% /quote-bar %}}
-Camp Glenorchy deployed SolarNode devices throughout the site to capture all the data into
-SolarNetwork. The SolarNetwork API made it easy for Camp Glenorchy to then query the data and
-integrate meaningful information into the key aspects of the business.
+Camp Glenorchy deployed SolarNode devices to capture data into SolarNetwork from all the various
+sensors, controls, and weather stations installed in the buildings throughout the site. SolarNode
+was a good fit as it can easily integrate with different devices from different manufacturers and
+can easily adapt in the future as new sensors are added.
+
+![Camp Glenorchy monitoring system](/img/case-studies/cgy-system-diagram-sn-1440-1080.png)
+
+The SolarNetwork API made it easy for Camp Glenorchy to then query the data and integrate meaningful
+information into key aspects of the business, such as an operational support dashboard:
+
+![Camp Glenorchy monitoring system](/img/case-studies/cgy-dashboard-overview-2706-1736.png)
+
+The same data also feeds into a tablet based app developed for guest rooms, that allows
+guests to learn about not only the general sustainability aspects of Camp Glenorchy, but 
+_their individual impact_ on the site. Then the app gives guests the ability to control their use of
+site resources such as energy and water by adjusting the temperature of their room or length of 
+their shower.
+
+![Camp Glenorchy guest app controls](/img/case-studies/cgy-guest-app-controls-1920x1200.jpg)
 {{% /section %}}
