@@ -35,7 +35,14 @@ than _50% cost savings_ for SolarNetwork subscribers overall!
 We reached out to some of our current subscribers to see what they thought of the new pricing plan,
 and this is what they had to say:
 
-<div class="uk-grid uk-child-width-1-2@s uk-grid-match" uk-grid>
+<div class="uk-grid uk-child-width-1-3@s uk-grid-match" uk-grid>
+	<div>
+		<div class="uk-card uk-card-primary uk-card-body">
+			{{< quote url="https://ecogyenergy.com/" cite="Jack Bertuzzi, Principal  Ecogy Energy" >}}
+			<p>As a large supporter of the SolarNetwork Foundation, it's great to see the project amass more contributors and in turn support them with lower costs!</p>
+			{{< /quote >}}
+		</div>
+	</div>
 	<div>
 		<div class="uk-card uk-card-primary uk-card-body">
 			{{< quote url="https://www.revolveenergy.co/" cite="Shay Brazier, Founder Re/volve Energy" >}}
