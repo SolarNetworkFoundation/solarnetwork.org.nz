@@ -36,13 +36,32 @@ the guest tablet application, internal operational support applications, and sup
 Energy certification process.
 {{% /section %}}
 {{% section  title="The result" style="secondary" %}}
-{{% quote-bar %}}{{% quote url="https://link.example.com/" cite="Big Shot, Important Role" %}}
-Stuff needed to be great and things needed to happen.
-{{% /quote %}}{{% /quote-bar %}}
+
 Camp Glenorchy deployed SolarNode devices to capture data into SolarNetwork from all the various
 sensors, controls, and weather stations installed in the buildings throughout the site. SolarNode
 was a good fit as it can easily integrate with different devices from different manufacturers and
 can easily adapt in the future as new sensors are added.
+
+<div class="uk-margin-large-left">
+{{% quote url="https://link.example.com/" cite="Ailsa Carroll, Sustainability Coordinator" %}}
+SolarNetwork’s tools enabled Camp Glenorchy to record diverse performance metrics over time, allow
+easy insight into that data record, and integrate our live status into other custom platforms. They
+continue to develop and improve the functionality of SolarNetwork tools — increasing the value of
+our existing infrastructure, and future proofing it. As part of the Living Building Challenge
+certification process we had to submit a full 12 months of metering data, this would not have been
+possible without SolarNetwork.
+
+Using innovative technology in a remote location also comes with its own set of challenges, but the
+ease of insight into our data that SolarNetwork enables has sped up our commissioning and
+troubleshooting process, and we also continue to improve our systems as that data set grows.
+
+SolarNetwork’s vision of open source computing and open access to data has enabled us to also begin
+fulfilling our goals of sharing our learnings and broadening our impact. We have been able to
+integrate their tools with our building management and automation system to increase the
+responsiveness of our site to the changing environment, guests, and events to continue to meet and
+exceed our expectations and sustainability goals.
+{{% /quote %}}
+</div>
 
 ![Camp Glenorchy monitoring system](/img/case-studies/cgy-system-diagram-sn-1440-1080.png)
 
