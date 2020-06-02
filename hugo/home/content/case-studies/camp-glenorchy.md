@@ -1,7 +1,7 @@
 ---
 title: "Camp Glenorchy"
 date: 2017-11-18T20:16:33+13:00
-draft: true
+draft: false
 weight: 100
 brief: "Earth-friendly cabins achieving zero net energy, with SolarNetwork powering the data-driven process."
 toc: true
