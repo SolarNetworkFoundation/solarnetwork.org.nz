@@ -1,7 +1,7 @@
 ---
 title: "Tiered pricing plan - 50% price reduction"
 date: 2020-06-01T00:00:00+13:00
-draft: true
+draft: false
 markup: "mmark"
 ---
 As a non-profit entity, SolarNetwork Foundation always strives to keep the costs of running the
