@@ -1,5 +1,5 @@
 ---
-title: SolarNetwork Foundation legal
+title: Legal
 date: 2020-06-01
 publishdate: 2020-06-01
 ---
