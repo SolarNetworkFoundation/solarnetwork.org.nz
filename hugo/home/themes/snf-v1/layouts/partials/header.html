@@ -7,7 +7,7 @@
                     <ul class="uk-navbar-nav">
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.main }}
-                            <li{{ if  or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} class="uk-active"{{end}}>
+                            <li{{ if  or (eq $currentPage.URL .URL) ($currentPage.HasMenuCurrent "main" .) }} class="uk-active"{{end}}>
                                 <a href="{{ .URL }}">{{ .Name }}</a>
                                 {{ if .HasChildren }}
                                     <div class="uk-navbar-dropdown">
