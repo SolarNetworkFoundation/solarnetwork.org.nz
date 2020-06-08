@@ -2,7 +2,6 @@
 title: About SolarNetwork Foundation
 date: 2017-11-08
 publishdate: 2017-11-08
-type: about
 ---
 {{% section  title="About SolarNetwork Foundation" lead="SNF started at a playground in Auckland, New Zealand." %}}
 Back in 2008, two dads watched their girls play, started chatting, and found they had some things in common. Both were U.S. expats living in New Zealand and both had a strong interest in using technology for environmental purposes. The idea of an open, public infrastructure that used the internet to bridge renewable energy data streams, regardless of the hardware being used to produce the energy, started to swirl in their minds.

@@ -2,7 +2,6 @@
 title: SolarNetwork subscriptions
 date: 2020-05-20
 publishdate: 2020-06-01
-type: about
 markup: "mmark"
 ---
 {{% section  title="SolarNetwork subscriptions" %}}
