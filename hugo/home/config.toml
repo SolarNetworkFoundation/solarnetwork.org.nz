@@ -50,3 +50,9 @@ uglyURLs = true
     weight = 400
     identifier = "about"
     url = "/about.html"
+
+[[menu.main]]
+    name = "Legal"
+    weight = 500
+    identifier = "legal"
+    url = "/legal.html"
