@@ -17,6 +17,7 @@ operate renewable energy assets, you gain access to the following SolarNetwork f
 | Priority support | Support straight from the SolarNetwork experts. |
 | Bulk import      | Import CSV data into SolarNetwork. |
 | Bulk export      | Export CSV data out of SolarNetwork, on an automated schedule or as a one-off. |
+| Event hooks      | Integrate with external applications based on events happening within SolarNetwork. |
 | OCPP integration | Integrate electric vehicle charging stations with your SolarNetwork account via the Open Charge Point Protocol from the [Open Charge Alliance](https://www.openchargealliance.org/). |
 
 Other subscriber-only features will be added over time. Want to sign up? Email us at 
