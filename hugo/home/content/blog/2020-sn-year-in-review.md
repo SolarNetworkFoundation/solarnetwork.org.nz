@@ -45,4 +45,4 @@ most common repositories:
 | web-api-sampler          | 21      | 
 | sn-api-core-js           | 23      |
 | sn-api-ssh-js            | 2       |
-| **TOTAL**                | 1,560   |
+| **TOTAL**                | 1,833   |
