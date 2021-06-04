@@ -24,6 +24,7 @@ Other subscriber-only features will be added over time. Want to sign up? Email u
 info@solarnetwork.net and we would be happy to help you get started.
 
 ## SolarNetwork terminology
+
 To understand the SolarNetwork subscription costs, the following terms are used:
 
 {.table .uk-table .uk-table-divider}
@@ -37,27 +38,39 @@ To understand the SolarNetwork subscription costs, the following terms are used:
 
 ## Subscription pricing
 
-Here are the new pricing tiers for the subscriptions SolarNetwork Foundation offers. Keep in mind
-that subscriptions are billed _per month per node_ so tiers are applied at the node level, not at
-the SolarNetwork account level:
+Once you sign up for a SolarNetwork subscription, you will be billed _monthly_ based on your usage
+across all nodes in your account, in the following categories:
 
-{.table .uk-table .uk-table-divider}
-|                   | Tier 1             | Tier 2             | Tier 3             | Tier 4             |
-|-------------------|--------------------|--------------------|--------------------|--------------------|
-| Tier start        | 1                  | 50,000             | 400,000            | 1,000,000          |
-| Properties posted | $9 / million       | $6 / million       | $4 / million       | $2 / million       |
-| Datum queried     | $2 / million       | $1 / million       | $0.50 / million    | $0.20 / million    |
-| Datum stored^†^   | $0.40 / million    | $0.20 / million    | $0.05 / million    | $0.006 / million   |
+ 1. **Properties Posted** — the total number of properties uploaded to SolarNetwork across all
+    datum for all sources for all nodes in your account.
+ 2. **Datum Queried** — the number of datum returned via queries to the SolarNetwork API.
+ 3. **Datum Days Stored** — number of datum stored in SolarNetwork, across all sources and nodes in
+    your account, calculated _each day_ and summed for the month.
 
-^†^ Datum stored costs calculated _per day_ and aggregated per bill.
+Each category has a tiered pricing structure, where the rate decreases as the usage volume increases.
+Subscriptions are billed _per month per account_ so tiers are applied on the sum total of all nodes
+in each account.
 
+<div class="uk-alert-success" uk-alert>
+Check out the <a href="https://go.solarnetwork.net/subscription-price-explorer/">Subscription Price Explorer</a>
+to interactively simulate subscription costs for a variety of usage patterns.
+</div>
 {{% /section %}}
-{{% section  title="Subscription details" style="primary" %}}
-## Properties posted
+{{% section  title="Pricing details" style="primary" %}}
+The following sections detail the pricing tiers for each subscription category.
+### Properties Posted
 
 This price is calculated from the number of properties posted into SolarNetwork over the billing period.
 
-## Datum queried
+{.table .uk-table .uk-table-small .uk-table-divider}
+| Tier Start  | Tier Rate       | Tier Maximum | Tier Maximum Cost |
+|-------------|-----------------|--------------|-------------------|
+| > 0           | $5 / million    | 500,000     | $ 2.50   |
+| > 500,000     | $3 / million    | 9,500,000   | $ 38.00  |
+| > 10,000,000  | $0.80 / million | 490,000,000 | $ 392.00 |
+| > 500,000,000 | $0.20 / million |             |          |
+
+## Datum Queried
 
 This price is calculated from the number of datum returned from any SolarNetwork API query that
 returns datum over the billing period. For API calls that return paged results (e.g. results 1 - 100
@@ -66,36 +79,52 @@ response count towards the total. If a query requests aggregate values, only the
 datum returned count towards the total. For example, requesting hourly aggregated datum given 1,000
 raw datum that span 24 hours would return 24 datum that count towards the total.
 
-## Datum stored
+{.table .uk-table .uk-table-small .uk-table-divider}
+| Tier Start  | Tier Rate       | Tier Maximum | Tier Maximum Cost |
+|-------------|-----------------|--------------|-------------------|
+| > 0              | $5 / 10 million    | 1,000,000     | $ 0.50   |
+| > 1,000,000      | $2 / 10 million    | 99,000,000    | $ 19.80  |
+| > 100,000,000    | $0.50 / 10 million | 9,900,000,000 | $ 495.00 |
+| > 10,000,000,000 | $0.08 / 10 million |               |          |
 
-This price is calculated from the total number of datum stored in SolarNetwork on each day over the
+## Datum Days Stored
+
+This price is calculated from the total number of datum stored in SolarNetwork _on each day_ over the
 billing period. As nodes post datum, this value grows. SolarNetwork also stores rolled-up aggregate
 datum derived from the raw datum—at hourly, daily, and monthly aggregate levels. Each of these
 aggregate datum are counted in this total as well.
+
+{.table .uk-table .uk-table-small .uk-table-divider}
+| Tier Start  | Tier Rate       | Tier Maximum | Tier Maximum Cost |
+|-------------|-----------------|--------------|-------------------|
+| > 0               | $5 / 100 million    | 10,000,000     | $ 0.50   |
+| > 10,000,000      | $1 / 100 million    | 990,000,000    | $ 9.90   |
+| > 1,000,000,000   | $0.40 / 100 million | 99,000,000,000 | $ 396.00 |
+| > 100,000,000,000 | $0.10 / 100 million |                |          |
+
 {{% /section %}}
 {{% section  title="Examples" style="secondary" %}}
 The following sections illustrate how the SolarNetwork subscription costs are calculated.
 
-## Properties posted
+## Properties Posted
 
 A node collects temperature and wind speed properties from a single weather station
 source once per minute. Over one 30-day month that would equate to:
 
 1 _source_ × 2 _properties_ × 60 _minutes_ × 24 _hours_ × 30 _days_ = **86,400** properties
 
-{.table .uk-table .uk-table-divider}
+{.table .uk-table .uk-table-small .uk-table-divider}
 | Tier      | Calculation | Cost |
 |-----------|-------------|------|
-| 1         | 50,000 × $9 ÷ 1,000,000 | $0.45 |
-| 2         | 36,400 × $6 ÷ 1,000,000 | $0.22 |
-| **Total** |  | **$0.67** |
+| 1         | 86,400 × $5 ÷ 1,000,000 | $0.43 |
+| **Total** |  | **$0.43** |
 
-## Datum queried
+## Datum Queried
 
 The following example builds off the **Properties Posted** example above, in which 1 datum is posted
 every minute. A script requests the following datum:
 
-{.table .uk-table .uk-table-divider}
+{.table .uk-table .uk-table-small .uk-table-divider}
 | Query | Result Count | Schedule |
 |-------|--------------|----------|
 | all datum for the past month, aggregated daily | 30 | every hour |
@@ -107,15 +136,13 @@ Over the course of a 30 day month that would equate to:
 
 (30 daily + (120 datum × 6) + 24 hourly + 60 most recent) × 24 hours × 30 days = **600,480** datum
 
-{.table .uk-table .uk-table-divider}
+{.table .uk-table .uk-table-small .uk-table-divider}
 | Tier      | Calculation | Cost |
 |-----------|-------------|------|
-| 1         | 50,000 × $2 ÷ 1,000,000 | $0.10 |
-| 2         | 350,000 × $1 ÷ 1,000,000 | $0.35 |
-| 3         | 200,480 × $0.50 ÷ 1,000,000 | $0.10 |
-| **Total** |  | **$0.55** |
+| 1         | 600,480 × $5 ÷ 10,000,000 | $0.30 |
+| **Total** |  | **$0.30** |
 
-## Datum stored
+## Datum Days Stored
 
 The following example builds off the **Properties Posted** example above, in which 1 datum is posted
 every minute. A node has been running for a year and has 525,600 raw, 8,760 hourly aggregate, 365
@@ -128,27 +155,25 @@ Over the course of the next 30 day month the datum storage cost would equate to:
 
 for _d_ = 1..30: _d_ = _d~prev~_ + 534,737 + (_d_ × 1,465) = **16,723,335** datum
 
-{.table .uk-table .uk-table-divider}
+{.table .uk-table .uk-table-small .uk-table-divider}
 | Tier      | Calculation | Cost |
 |-----------|-------------|------|
-| 1         | 50,000 × $0.40 ÷ 1,000,000 | $0.02 |
-| 2         | 350,000 × $0.20 ÷ 1,000,000 | $0.07 |
-| 3         | 600,000 × $0.05 ÷ 1,000,000 | $0.03 |
-| 4         | 15,723,335 × $0.006 ÷ 1,000,000 | $0.09 |
-| **Total** |  | **$0.21** |
+| 1         | 10,000,000 × $5 ÷ 100,000,000 | $0.50 |
+| 2         | 6,723,335 × $1 ÷ 100,000,000  | $0.07 |
+| **Total** |  | **$0.57** |
 
 ## Overall cost
 
 The overall monthly subscription cost for properties posted, datum queried, and datum stored for the
 previous examples would be:
 
-{.table .uk-table .uk-table-divider}
+{.table .uk-table .uk-table-small .uk-table-divider}
 | Subscription | Cost |
 |--------------|------|
-| Properties posted | $0.67 |
-| Datum queried     | $0.55 |
-| Datum stored      | $0.21 |
-| **Total**         | **$1.43** |
+| Properties Posted | $0.30 |
+| Datum Queried     | $0.57 |
+| Datum Days Stored | $0.57 |
+| **Total**         | **$1.44** |
 
 
 

@@ -15,3 +15,16 @@ blockquote.uk-card > p {
 blockquote.uk-card footer {
     font-weight: inherit;
 }
+
+/* Tweak table dividers in primary section */
+
+.uk-section-primary .uk-table th {
+	color: #333;
+	font-weight: 700;
+}
+
+.uk-section-primary .uk-table-divider > :first-child > tr:not(:first-child),
+.uk-section-primary .uk-table-divider > :not(:first-child) > tr,
+.uk-section-primary .uk-table-divider > tr:not(:first-child) {
+	border-top: 1px solid rgba(0,0,0,0.3);
+}
