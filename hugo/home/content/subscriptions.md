@@ -58,7 +58,7 @@ to interactively simulate subscription costs for a variety of usage patterns.
 {{% /section %}}
 {{% section  title="Pricing details" style="primary" %}}
 The following sections detail the pricing tiers for each subscription category.
-### Properties Posted
+## Properties Posted
 
 This price is calculated from the number of properties posted into SolarNetwork over the billing period.
 
@@ -66,7 +66,7 @@ This price is calculated from the number of properties posted into SolarNetwork 
 | Tier Start  | Tier Rate       | Tier Maximum | Tier Maximum Cost |
 |-------------|-----------------|--------------|-------------------|
 | > 0           | $5 / million    | 500,000     | $ 2.50   |
-| > 500,000     | $3 / million    | 9,500,000   | $ 38.00  |
+| > 500,000     | $3 / million    | 9,500,000   | $ 28.50  |
 | > 10,000,000  | $0.80 / million | 490,000,000 | $ 392.00 |
 | > 500,000,000 | $0.20 / million |             |          |
 
@@ -82,10 +82,10 @@ raw datum that span 24 hours would return 24 datum that count towards the total.
 {.table .uk-table .uk-table-small .uk-table-divider}
 | Tier Start  | Tier Rate       | Tier Maximum | Tier Maximum Cost |
 |-------------|-----------------|--------------|-------------------|
-| > 0              | $5 / 10 million    | 1,000,000     | $ 0.50   |
-| > 1,000,000      | $2 / 10 million    | 99,000,000    | $ 19.80  |
-| > 100,000,000    | $0.50 / 10 million | 9,900,000,000 | $ 495.00 |
-| > 10,000,000,000 | $0.08 / 10 million |               |          |
+| > 0              | $1 / 10 million    | 10,000,000     | $ 1.00   |
+| > 1,000,000      | $0.40 / 10 million | 990,000,000    | $ 39.60  |
+| > 100,000,000    | $0.04 / 10 million | 99,000,000,000 | $ 396.00 |
+| > 10,000,000,000 | $0.01 / 10 million |                |          |
 
 ## Datum Days Stored
 
@@ -99,8 +99,8 @@ aggregate datum are counted in this total as well.
 |-------------|-----------------|--------------|-------------------|
 | > 0               | $5 / 100 million    | 10,000,000     | $ 0.50   |
 | > 10,000,000      | $1 / 100 million    | 990,000,000    | $ 9.90   |
-| > 1,000,000,000   | $0.40 / 100 million | 99,000,000,000 | $ 396.00 |
-| > 100,000,000,000 | $0.10 / 100 million |                |          |
+| > 1,000,000,000   | $0.30 / 100 million | 99,000,000,000 | $ 297.00 |
+| > 100,000,000,000 | $0.20 / 100 million |                |          |
 
 {{% /section %}}
 {{% section  title="Examples" style="secondary" %}}
@@ -139,8 +139,8 @@ Over the course of a 30 day month that would equate to:
 {.table .uk-table .uk-table-small .uk-table-divider}
 | Tier      | Calculation | Cost |
 |-----------|-------------|------|
-| 1         | 600,480 × $5 ÷ 10,000,000 | $0.30 |
-| **Total** |  | **$0.30** |
+| 1         | 600,480 × $1 ÷ 10,000,000 | $0.06 |
+| **Total** |  | **$0.06** |
 
 ## Datum Days Stored
 
@@ -170,11 +170,9 @@ previous examples would be:
 {.table .uk-table .uk-table-small .uk-table-divider}
 | Subscription | Cost |
 |--------------|------|
-| Properties Posted | $0.30 |
-| Datum Queried     | $0.57 |
+| Properties Posted | $0.43 |
+| Datum Queried     | $0.06 |
 | Datum Days Stored | $0.57 |
-| **Total**         | **$1.44** |
-
-
+| **Total**         | **$1.06** |
 
 {{% /section %}}
