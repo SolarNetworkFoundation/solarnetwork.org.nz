@@ -10,7 +10,7 @@ highlight what SolarNetwork experienced over the previous year.
 
 ## Data metrics
 
-The amount of data processed by SolarNetwork continued to grow in 2022 as compared to 2021. 
+The amount of data processed by SolarNetwork continued to grow in 2022. 
 
  * Over **2.8 billion** metrics ingested on about **554 million** datum
  * Over **3.7 billion** datum queried
@@ -27,7 +27,7 @@ The amount of data processed by SolarNetwork continued to grow in 2022 as compar
 ## Code commits
 
 The code and documentation that makes up SolarNetwork is spread across many Git repositories on
-Github. Over 2021 more than **1,500** commits were recorded. Here is a breakdown of commits in the
+Github. Over 2022 more than **1,500** commits were recorded. Here is a breakdown of commits in the
 most common repositories:
 
 | Repository               | Commits |

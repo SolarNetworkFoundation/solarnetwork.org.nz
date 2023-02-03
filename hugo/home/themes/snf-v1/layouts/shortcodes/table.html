@@ -1,0 +1,10 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+<!--
+    Accepts single parameter of CSS class list
+-->
+{{ $htmlTable := .Inner | markdownify }}
+{{ $class := .Get 0 }}
+{{ $old := "<table>" }}
+{{ $new := printf "<table class=\"%s\">" $class }}
+{{ $htmlTable := replace $htmlTable $old $new }}
+{{ $htmlTable | safeHTML }}

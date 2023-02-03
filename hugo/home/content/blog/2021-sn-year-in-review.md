@@ -10,7 +10,7 @@ highlight what SolarNetwork experienced over the previous year.
 
 ## Data metrics
 
-The amount of data processed by SolarNetwork continued to grow in 2021 as compared to 2020. 
+The amount of data processed by SolarNetwork continued to grow in 2021. 
 
  * Over **2.5 billion** metrics ingested on about **400 million** datum
  * Over **1.8 billion** datum queried
