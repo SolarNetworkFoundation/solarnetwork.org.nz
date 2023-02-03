@@ -5,11 +5,12 @@ theme = "snf-v1"
 description = "SolarNetwork Foundation is a New Zealand registered charity focused on sustainability education and technology."
 Paginate = 4
 uglyURLs = true
-[Params]
+
+[params]
   RSSLink = "/index.xml"
-  author = "SolarNetwork" # add your company name
-  github = "" # add your github profile name
-  twitter = "" # add your twitter profile
+  author = "SolarNetwork"
+  github = "SolarNetworkFoundation"
+  twitter = ""
   email = "info@solarnetwork.net"
 
 [markup.goldmark.renderer]
