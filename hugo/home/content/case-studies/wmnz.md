@@ -20,7 +20,7 @@ monitor their performance, health, and operating statistics over time.
 Having worked with SolarNetwork Foundation on other projects, [EVisi](https://www.evisi.co/) again
 recognized that the SolarNetwork platform would provide a solid foundation on which to address Waste
 Management's needs, now and into the future. They asked SolarNetwork Foundation to help develop new
-or enhanced features to meed the needs of the direct vehicle integration needed by the Waste
+or enhanced features to meet the needs of the direct vehicle integration needed by the Waste
 Management project.
 {{% /section %}}
 {{% section  title="The challenge" style="primary" %}}
