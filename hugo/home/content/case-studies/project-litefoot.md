@@ -1,8 +1,8 @@
 ---
 title: Project Litefoot
 date: 2017-11-08T08:50:56+13:00
-draft: true
-weight: 100
+draft: false
+weight: 150
 brief: "Project Litefoot selected SolarNetwork to start tracking electricity use at their sports clubs."
 toc: true
 key: liteclub
