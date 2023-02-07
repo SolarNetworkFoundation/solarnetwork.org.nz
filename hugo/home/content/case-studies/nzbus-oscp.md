@@ -32,21 +32,28 @@ and enhanced features to meet the needs of the OSCP integration needed by the NZ
 {{% section  title="The result" style="secondary" %}}
 SolarNetwork Foundation developed an OSCP "Flexibility Provider" feature for the SolarNetwork platform that provides the integration with Vector's load control system. The OSCP messages are passed to EVisi, and EVisi uses already existing SolarNetwork API methods to control with the depot's chargers as needed. A SolarNode deployed at the depot collects metered energy usage from on-site meters and then SolarNetwork automatically reports that usage back to Vector via the OSCP protocol.
 
-<div class="uk-grid uk-child-width-1-2@s uk-grid-match" uk-grid>
+<div class="uk-grid uk-child-width-1-3@s uk-grid-match" uk-grid>
   <div>
 <div class="uk-card uk-card-secondary uk-card-body">
-{{< quote url="https://www.evisi.co/" cite="Chris Olson, EVisi Founder" >}}
+{{< quote url="https://www.wsp.com/en-nz" cite="Someone, WSP" >}}
+<p>Quote here...</p>
+{{< /quote >}}
+</div>
+  </div>
+    <div>
+<div class="uk-card uk-card-secondary uk-card-body">
+{{< quote url="https://www.vector.co.nz/" cite="Someone, Vector" >}}
 <p>Quote here...</p>
 {{< /quote >}}
 </div>
   </div>
   <div>
-<div class="uk-card uk-card-secondary uk-card-body">
-{{< quote url="https://www.evisi.co/" cite="Someone, Vector" >}}
-<p>Quote here...</p>
-{{< /quote >}}
-</div>
+  <div class="uk-card uk-card-secondary uk-card-body">
+  {{< quote url="https://www.evisi.co/" cite="Chris Olson, EVisi Founder" >}}
+  <p>Quote here...</p>
+  {{< /quote >}}
   </div>
+    </div>
 </div>
 
 
