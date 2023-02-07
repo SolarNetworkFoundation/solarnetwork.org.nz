@@ -3,4 +3,4 @@
 {{ define "main" }}
 {{ .Content }}       
 {{ end }} 
-{{ define "footer" }} {{ partial "footer" . }} {{ end }}
+{{ define "footer" }} {{ partialCached "footer" . }} {{ end }}
