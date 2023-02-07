@@ -23,10 +23,11 @@ At a high level Vector's OSCP-based system would work like this:
 
 Having worked with SolarNetwork Foundation on other projects, [EVisi](https://www.evisi.co/) again
 recognised that the SolarNetwork platform would provide a solid foundation on which to address NZ Bus's needs. They approached SolarNetwork Foundation to help develop new
-and enhanced features to meet the needs of the OSCP integration needed by the NZ Bus project.
+and enhanced features to meet the needs of the OSCP integration in the NZ Bus project.
 {{% /section %}}
 {{% section  title="The challenge" style="primary" %}}
  * facilitate communication between Vector's OSCP-based load control system and EVisi's charge optimisation platform
+ * coordinate with the engineering team at [WSP](https://www.wsp.com/en-nz) to integrate the depot's physical infrastructure with the SolarNetwork platform 
  * integrate [OCPP v1.6](https://www.openchargealliance.org/protocols/ocpp-16/)-based chargers with proprietary extensions to monitor and control energy use
 {{% /section %}}
 {{% section  title="The result" style="secondary" %}}
