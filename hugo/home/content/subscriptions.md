@@ -14,10 +14,11 @@ operate renewable energy assets, you gain access to the following SolarNetwork f
 | Feature          | Description |
 |------------------|-------------|
 | Priority support | Support straight from the SolarNetwork experts. |
-| Bulk import      | Import CSV data into SolarNetwork. |
-| Bulk export      | Export CSV data out of SolarNetwork, on an automated schedule or as a one-off. |
+| Bulk import      | [Import CSV data](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-Datum-Import-API) into SolarNetwork. |
+| Bulk export      | [Export CSV data](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-Datum-Export-API) out of SolarNetwork, on an automated schedule or as a one-off. |
 | Event hooks      | Integrate with external applications based on events happening within SolarNetwork. |
-| OCPP integration | Integrate electric vehicle charging stations with your SolarNetwork account via the Open Charge Point Protocol from the [Open Charge Alliance](https://www.openchargealliance.org/). |
+| OCPP integration | Integrate electric vehicle charging stations with your SolarNetwork account via the Open Charge Point Protocol from the [Open Charge Alliance](https://www.openchargealliance.org/). SolarNetwork acts as an OCPP [Central Service](https://github.com/SolarNetwork/solarnetwork/wiki/OCPP) and offers a [robust API](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-OCPP-API) to manage the integration. |
+| OSCP integration | Receive load control signals from an [Open Smart Charging Protocol](https://www.openchargealliance.org/protocols/oscp-20/) Capacity Provider. SolarNetwork acts as an OSCP [Flexibility Provider](https://github.com/SolarNetwork/solarnetwork/wiki/OSCP) and offers a [robust API](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-OSCP-API) to integrate your own Capacity Optimizer service. |
 {{</table>}}
 
 Other subscriber-only features will be added over time. Want to sign up? Email us at 
