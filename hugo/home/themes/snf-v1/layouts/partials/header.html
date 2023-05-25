@@ -2,30 +2,8 @@
     <div class="uk-navbar-container" uk-sticky="show-on-up: true; animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #scrollup-dropdown">
         <div class="uk-container uk-container-expand">
             <nav uk-navbar>
-                <a href="#offcanvas" uk-navbar-toggle-icon uk-toggle class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon"></a>
-                <div class="uk-navbar-left uk-visible@m">
-                    <ul class="uk-navbar-nav">
-                        {{ $currentPage := . }}
-                        {{ range .Site.Menus.main }}
-                            <li{{ if  or (eq $currentPage.RelPermalink .URL) ($currentPage.HasMenuCurrent "main" .) }} class="uk-active"{{end}}>
-                                <a href="{{ .URL }}">{{ .Name }}</a>
-                                {{ if .HasChildren }}
-                                    <div class="uk-navbar-dropdown">
-                                        <ul class="uk-nav uk-navbar-dropdown-nav">
-                                            {{ range .Children.ByName }}
-                                                <li{{if $currentPage.HasMenuCurrent "main" .}} class="uk-active"{{end}}>
-                                                    <a href="{{ .URL }}">{{ .Name }}</a>
-                                                </li>
-                                            {{ end }}
-                                        </ul>
-                                    </div>
-                                {{ end }}
-                            </li>
-                        {{end}}
-                    </ul>
-                </div>
                 <div class="uk-navbar-right">
-                    <a class="uk-navbar-item uk-logo" href="/" title="home"><img src="/img/snf-logo.svg" alt="SolarNetwork Foundation"></a>
+                    <a class="uk-navbar-item uk-logo" href="/" title="home"><img src="/img/solarnetwork-foundation-logo-2023.svg" alt="SolarNetwork Foundation"></a>
                 </div>
             </nav>
         </div>
@@ -34,24 +12,3 @@
         {{ end }}
     </div>
 </header>
-<div id="offcanvas" uk-offcanvas="overlay: true">
-    <div class="uk-offcanvas-bar">
-        <ul class="uk-nav uk-nav-default">
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.main }}
-                <li class="{{ if  .HasChildren }} uk-parent{{end}}{{ if  $currentPage.IsMenuCurrent "main" . }} uk-active{{end}}">
-                    <a class="uk-margin-small" href="{{ .URL }}">{{ .Name }}</a>
-                    {{ if .HasChildren }}
-                        <ul class="uk-nav-sub">
-                            {{ range .Children.ByName }}
-                                <li{{if $currentPage.HasMenuCurrent "main" .}} class="uk-active"{{end}}>
-                                    <a href="{{ .URL }}">{{ .Name }}</a>
-                                </li>
-                            {{ end }}
-                        </ul>
-                    {{ end }}
-                </li>
-            {{end}}
-        </ul>
-    </div>
-</div>
