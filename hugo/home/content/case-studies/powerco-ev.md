@@ -23,3 +23,4 @@ PowerCo needed to create a flagship technology demonstration that not only worke
 PowerCo chose SolarNetwork and a SolarNetwork enabled EV charger to display how much energy the unit has provided for customers, and what kind of carbon emission offset that represented.  EV charging customers can see the sunshine and know that the energy shining all around them is making their transporation cleaner and more efficient. Customising the energy dashboard with PowerCo allowed them to own the brand and the sales channel to the end user,  which is an important aspect of how SolarNetwork integrates into existing brand identities.
 
 ![EV charge station kiosk](/img/case-studies/powerco-ev-kiosk-1226x690.png)
+{{% /section %}}
